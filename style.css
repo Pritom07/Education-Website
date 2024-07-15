@@ -66,3 +66,30 @@ body {
 .see-course {
     margin-left: 38%;
 }
+
+.view {
+    display: none;
+}
+
+/* -------------------e-learning section style-------------------- */
+
+.work-zone {
+    background-color: #F4FAFD;
+    margin-top: 6%;
+    padding-right: 4px;
+    position: relative;
+    right: 1%;
+}
+
+.working-img {
+    width: 86%;
+    height: 100%;
+}
+
+.man-beside-cap {
+    margin-top: 6%;
+}
+
+.working-cap {
+    font-size: 14px;
+}
