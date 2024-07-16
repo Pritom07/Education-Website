@@ -107,3 +107,14 @@ body {
 .success-btn {
     margin-left: 46%;
 }
+
+/* ----------------student feedback section style--------------- */
+
+.feedback {
+    margin-left: 34%;
+}
+
+.awlad-shanta-feedback {
+    position: relative;
+    bottom: 7px;
+}
