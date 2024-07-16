@@ -118,3 +118,9 @@ body {
     position: relative;
     bottom: 7px;
 }
+
+/*----------------- frequently asked question section------------ */
+
+.faq {
+    margin-left: 33%;
+}
