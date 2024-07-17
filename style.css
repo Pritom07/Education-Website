@@ -90,6 +90,10 @@ body {
     margin-top: 6%;
 }
 
+.s-more {
+    display: none;
+}
+
 .working-cap {
     font-size: 14px;
 }
@@ -166,6 +170,7 @@ footer {
         margin-top: 2%;
         width: 40%;
         margin-left: 32%;
+        margin-bottom: 3%;
     }
 
     /* ----------------------carousel section style---------------------- */
@@ -178,7 +183,7 @@ footer {
 
     .carousel-caption>h5 {
         font-size: 30px;
-        font-weight: 800;
+        font-weight: 700 !important;
     }
 
     .carousel-caption>p {
@@ -265,6 +270,10 @@ footer {
     .man-beside-cap>p {
         font-size: 14px;
         text-align: left;
+    }
+
+    .s-more {
+        display: none;
     }
 
     .course-numeric {
@@ -385,6 +394,225 @@ footer {
 
     .footer-add {
         font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width:540px) and (max-width:688px) {
+
+    /* ---------------navbar section style-------------- */
+
+    .nav-options {
+        margin-right: 20%;
+    }
+
+    .home-img1 {
+        margin-left: 4%;
+    }
+
+    .course-img1 {
+        margin-left: 8% !important;
+    }
+
+    .deals-img1 {
+        margin-right: 3%;
+    }
+
+    .nav-button {
+        width: 40%;
+        margin-top: 2%;
+        margin-left: 28%;
+        margin-bottom: 3%;
+    }
+
+    /*---------------- carousel section style----------------- */
+
+    .carousel-part {
+        height: 530px;
+        position: relative;
+        right: 1%;
+    }
+
+    .carousel-caption>h5 {
+        font-size: 30px;
+        font-weight: 700 !important;
+    }
+
+    .carousel-caption>p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* ---------------popular course section style------------------ */
+
+    .popular-course>h2 {
+        font-size: 36px;
+    }
+
+    .popular-course>p {
+        font-size: 14px !important;
+        font-weight: 405px;
+    }
+
+    /* --------------------course class section style ---------------------*/
+
+    .each-course-sec {
+        position: relative;
+        right: 7%;
+        width: 95%;
+    }
+
+    .see-course {
+        display: none;
+    }
+
+    .view {
+        display: block;
+        margin-left: 35%;
+    }
+
+    .photography,
+    .motion {
+        display: none !important;
+    }
+
+    /* ----------------working zone section style------------------ */
+
+    .working-img {
+        width: 120% !important;
+    }
+
+    .man-beside-cap {
+        margin-left: 10%;
+    }
+
+    .man-beside-cap>h4 {
+        font-size: 21px !important;
+    }
+
+    .course-numeric {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .w-cap2 {
+        display: none;
+    }
+
+    .s-more {
+        display: block;
+    }
+
+    .read-button {
+        margin-bottom: 5%;
+    }
+
+    /* ----------------ready join section style----------------- */
+
+    .ready-join-modal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .join {
+        font-size: 30px !important;
+    }
+
+    .read-demy {
+        font-size: 14px;
+        padding: 0 12px !important;
+        color: whitesmoke !important;
+    }
+
+    .register-now {
+        margin-top: 13%;
+    }
+
+    .name {
+        margin-right: 61%;
+    }
+
+    .em {
+        margin-right: 64%;
+    }
+
+    .pass {
+        margin-right: 55%;
+    }
+
+    /* ----------------success stories section  style----------------- */
+
+    .success-stories>h2 {
+        font-size: 35px;
+    }
+
+    .success-stories>p {
+        font-size: 96%;
+    }
+
+    .successors {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .success-btn {
+        position: relative;
+        right: 4%;
+    }
+
+    /* ------------------feedback section style --------------------------*/
+
+    .feedback {
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        right: 15%;
+    }
+
+    .feedback-section>p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .each-stu-feedback {
+        flex-direction: column;
+    }
+
+    .each-stu-feedback1>p {
+        text-align: justify;
+    }
+
+    .feedback-view-btn {
+        display: block;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+
+    /* ----------------------faq section style ------------------------*/
+
+    .faq {
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        right: 15%;
+    }
+
+    .faq-section>p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /* --------------------trust company section style------------------ */
+
+    .trust-company {
+        display: none;
+    }
+
+    /*-------------------- footer section style--------------------- */
+
+    .footer-pro {
+        font-size: 30px !important;
     }
 
 }
