@@ -221,10 +221,13 @@ footer {
     .course-text {
         margin-top: 7% !important;
         margin-right: 5%;
+        margin: 0 10%;
+        padding-left: 6%;
+        text-align: left;
     }
 
     .course-text>h4 {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .course-text>small {
@@ -234,6 +237,15 @@ footer {
     .course-text>h6 {
         font-size: 20px;
         margin-top: 3% !important;
+    }
+
+    .full-stackweb {
+        margin-right: 12%;
+    }
+
+    .digital {
+        position: relative;
+        right: 7%;
     }
 
     .photography,
@@ -398,7 +410,7 @@ footer {
 
 }
 
-@media only screen and (min-width:540px) and (max-width:688px) {
+@media only screen and (min-width:540px) and (max-width:992px) {
 
     /* ---------------navbar section style-------------- */
 
@@ -603,16 +615,74 @@ footer {
         font-weight: 500;
     }
 
-    /* --------------------trust company section style------------------ */
-
-    .trust-company {
-        display: none;
-    }
-
     /*-------------------- footer section style--------------------- */
 
     .footer-pro {
         font-size: 30px !important;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* --------------navbar section style-------------------- */
+
+    .home-img1 {
+        position: relative;
+        right: 1%;
+    }
+
+    .course-img1 {
+        margin-right: 2.5%;
+    }
+
+    /* ----------------course section style------------------- */
+
+    .each-course-sec {
+        margin-left: 4.5% !important;
+    }
+
+    /* ------------------feedback section style----------------- */
+
+    .feedback-view-btn {
+        margin-left: 43%;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1024px) {
+
+    /* --------------navbar section style------------------- */
+
+    .nav-options {
+        position: relative;
+        right: 13%;
+    }
+
+    .nav-button {
+        position: relative;
+        right: 24%;
+    }
+
+    /* -----------------course section style--------------- */
+
+    .each-course-sec {
+        width: 90%;
+    }
+
+    .course-img {
+        width: 20% !important;
+    }
+
+    .course-text>h4 {
+        font-size: 30px !important;
+    }
+
+    .course-text>small {
+        font-size: 20px !important;
+    }
+
+    .course-text>h6 {
+        font-size: 24px;
     }
 
 }
